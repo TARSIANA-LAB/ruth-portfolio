@@ -978,8 +978,7 @@
   <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
   <!-- SCROLLREVEAL JS -->
   <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
-  <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
-
+  
   <script>
     /* ══════════════════════════════
        CUSTOM CURSOR — rAF version (from main.js)
@@ -1145,23 +1144,7 @@
       });
     });
 
-    /* ══════════════════════════════
-       CONTACT FORM
-    ══════════════════════════════ */
-   /* ══════════════════════════════
-  /* ══════════════════════════════
-   EMAILJS INITIALIZATION WITH DEBUGGING
-══════════════════════════════ */
-console.log('📌 Initializing EmailJS...');
-
-// Check if emailjs library is loaded
-if (typeof emailjs !== 'undefined') {
-  console.log('✅ EmailJS library loaded successfully');
-  emailjs.init("mHyS41IsdfWG7VXEX");
-  console.log('✅ EmailJS initialized');
-} else {
-  console.error('❌ EmailJS library NOT loaded! Check your script tag.');
-}
+   
 
 /* ══════════════════════════════
    CONTACT FORM - with EmailJS
